@@ -1,0 +1,81 @@
+/*
+  ADD YOUR EXTRA STYLES HERE!
+*/
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,900");
+.name {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 900;
+  color: #ffffff;
+  text-rendering: optimizeLegibility;
+  text-align: center
+}
+
+.center {
+  text-align: center
+}
+
+.rounded-small {
+  border-radius: 0.25rem !important;
+}
+
+.rounded-video {
+  border-radius: 1.5rem !important;
+}
+
+.circle {
+  border-radius: 100rem !important;
+}
+
+.video-border {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none
+}
+
+.button.hollow-button-blue {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2f2696;
+  background-color: rgba(255, 255, 255, 0);
+  color: #2f2696;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none
+}
+
+.button.hollow-button-blue:active,
+.button.hollow-button-blue:focus,
+.button.hollow-button-blue:hover {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fecb56;
+  background-color: #fecb56;
+  color: #fff
+}
+
+/* This element defines the size the iframe will take.
+In this example we want to have a ratio of 25:14 */
+.aspect-ratio {
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  padding-bottom: 56.25%; /* The height of the item will now be 56.25% of the width. */
+}
+  
+/* Adjust the iframe so it's rendered in the outer-width and outer-height of it's parent */
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
