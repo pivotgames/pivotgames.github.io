@@ -1,4 +1,4 @@
-google.com, pub-8006240665167480, DIRECT, f08c47fec0942fa0
+google.com, pub-7134658605822640, DIRECT, f08c47fec0942fa0
 facebook.com, 458652569665375, DIRECT, c3e20eee3f780d68
 adverty.com, 988, DIRECT, 2b1a2f9cd997fcab
 33across.com, 0013300001jlr99AAA, RESELLER, bbea06d9c4d2853c
